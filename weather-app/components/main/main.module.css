@@ -30,3 +30,40 @@
     background-color: rgb(57, 73, 122);
     cursor: pointer;
 }
+
+.appWeather {
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.weatherDate {
+    font-size: 10px;
+}
+
+.weatherCity {
+    font-size: 20px;
+    margin: 0;
+}
+
+.weatherTemp {
+    display: flex;
+    font-size: 45px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherTempLike {
+    font-size: 10px;
+}
+
+.weatherDesc {
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.weatherMinMax {
+    font-size: 10px;
+}
