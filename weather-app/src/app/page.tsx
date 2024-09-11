@@ -5,22 +5,13 @@ import styles from "./page.module.css";
 import Image from 'next/image';
 
 
-
-
-
-// useEffect(() => {
-
-// }, [city]);
-
-
-
 export default function Home() {
 
-  const [city, setCity] = useState('');
+  const [city, setCity] = useState<string>('');
 
 
    // Function to handle form submission
-   const handleSubmit = async (event : React.FormEvent) => {
+   const handleSubmit = async (event : React.FormEvent<HTMLFormElement>) => {
     event.preventDefault(); // Prevent the default form submission behavior
     try {
       // Make a fetch request to the weather API with the city input
