@@ -1,0 +1,18 @@
+.appHeader {
+    text-align: center;
+    padding: 20px;
+    height: 14em;
+    margin: 25px;
+}
+
+.appTitle {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+.appIntro {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-top: 15px;
+    color: rgb(141, 141, 141);
+}

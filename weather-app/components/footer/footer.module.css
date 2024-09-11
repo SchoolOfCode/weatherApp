@@ -1,0 +1,11 @@
+.appFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5em;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    font-size: 14px;
+    color: rgb(174, 174, 174);
+}
